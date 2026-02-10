@@ -1,10 +1,9 @@
-# Curso-Angular-Websocket
+# Curso Angular + Websocket
+
 
 ### 01. WebSockets: First Steps
 
 In this section, we will take our first steps into the WebSocket protocol and the necessary configurations to make it work using **Bun** and the **native browser implementation**.
-
-
 
 #### Topics Covered
 
@@ -19,3 +18,21 @@ In this section, we will take our first steps into the WebSocket protocol and th
 - Message Broadcasting: Sending messages to all connected clients.
 - Using Cookies and Search Params: Sending additional information during the connection process.
 - Securing WebSocket Connections: Basic validations and access control.
+
+---
+
+### 02. Backend - Political Parties
+
+In this section, we will start creating the actual backend project using Bun.
+
+
+#### Topics Covered
+
+- Project design and setup
+- Server and WebSocket configuration
+- Message, error, and response architecture
+- State store and services
+- Integration between controllers and services
+- Real-time communication testing
+- Data validation and typing
+
