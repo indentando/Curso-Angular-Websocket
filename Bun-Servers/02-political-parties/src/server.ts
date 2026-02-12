@@ -2,7 +2,7 @@ import { SERVER_CONFIG } from "./config/server-config";
 import indexHtml from '../public/index.html';
 import { generateUuid } from "./utils/generate-uuid";
 import type { WebSocketData } from "./types";
-import { handleMessage } from "./handlers/message.handler";
+import { handleGetParties, handleMessage } from "./handlers/message.handler";
 
 export const createServer = () => {
   const server = Bun.serve<WebSocketData>({
@@ -26,6 +26,9 @@ export const createServer = () => {
       open(ws) {
         console.log(` Cliente: ${ ws.data.clientId }`); 
         ws.subscribe( SERVER_CONFIG.defaultChannelName );
+
+        const partyListMessage = handleGetParties();
+        ws.send(JSON.stringify(partyListMessage));
       }, // a socket is opened      
       message(ws, message: string) {
         const response = handleMessage(message);

@@ -30,7 +30,7 @@ const handleAddParty = (payload: MessageParsed['payload']): WebSocketResponse =>
   }
 }
 
-const handleGetParties = (): WebSocketResponse => {
+export const handleGetParties = (): WebSocketResponse => {
   return {
     type: 'PARTIES_LIST',
     payload: partyService.getAll()
@@ -89,7 +89,7 @@ const handleIncrementVotes = (payload: MessageParsed['payload']): WebSocketRespo
 const handleDecrementVotes = (payload: MessageParsed['payload']): WebSocketResponse => {
   if ( !payload?.id ) return createErrorResponse(`Party with id is required`)
 
-  const party = partyService.incrementVotes(payload.id);
+  const party = partyService.decrementVotes(payload.id);
   if ( !party ) return createErrorResponse(`Party with id ${ payload.id } not found`)
 
   return {

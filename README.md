@@ -36,3 +36,23 @@ In this section, we will start creating the actual backend project using Bun.
 - Real-time communication testing
 - Data validation and typing
 
+---
+
+### 03. Angular - Political Parties 
+
+In this section, I have learned how to build an Angular application focused on real-time data visualization and updates, integrating charts and WebSockets from scratch. The goal is to connect forms, the server, and the UI to reflect instant changes.
+
+
+#### Topics Covered (condensed)
+
+- Structure and initialization of a real-time–oriented Angular project
+- Chart.js integration for data visualization
+- Chart configuration and customization
+- Form design and management with typed data
+- Creation and consumption of a WebSocket server
+- Connection, reconnection, and message-handling services
+- Real-time client–server communication
+- Using signals and outputs to react to changes
+- Dynamic UI updates and live charts
+- Full data CRUD
+
