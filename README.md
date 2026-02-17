@@ -56,3 +56,22 @@ In this section, I have learned how to build an Angular application focused on r
 - Dynamic UI updates and live charts
 - Full data CRUD
 
+---
+
+### 04. Backend - Maps & moves
+
+In this section, we will build the backend that enables client geolocation tracking, clearly identifying them and allowing us to record their movements, connections, and disconnections.
+
+
+#### Topics Covered
+
+- Understand the backend architecture for maps and real-time movement
+- Design and structure messages using clear interfaces and types
+- Identify and authenticate clients from the initial connection
+- Properly validate payloads sent by clients
+- Implement decoupled and maintainable message handlers
+- Centralize business logic within services
+- Configure and use a Store to manage backend state
+- Connect handlers with services in a clean way
+- Test and verify the correct functioning of the backend
+- Log client connections and disconnections in real time
