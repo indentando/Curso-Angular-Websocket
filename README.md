@@ -75,3 +75,18 @@ In this section, we will build the backend that enables client geolocation track
 - Connect handlers with services in a clean way
 - Test and verify the correct functioning of the backend
 - Log client connections and disconnections in real time
+
+---
+
+### 05. Angular - Maps in real time
+
+In this section, we will learn how to create real-time maps with Angular using WebSockets to synchronize locations and markers between multiple users.
+
+#### Topics Covered
+
+- Integration of interactive maps in Angular
+- Real-time communication with WebSockets
+- Emitting and synchronizing map positions
+- Creating and moving markers in real time
+- Dynamically updating and removing markers
+- Handling reconnection and application state management

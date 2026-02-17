@@ -1,0 +1,4 @@
+@if( websocketService.connectionStatus() === 'offline') {
+    <connect-form (formSubmitted)="connectForm($event)"  />
+}
+<custom-map (center)="currentCenter.set($event)" />
