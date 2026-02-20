@@ -90,3 +90,18 @@ In this section, we will learn how to create real-time maps with Angular using W
 - Creating and moving markers in real time
 - Dynamically updating and removing markers
 - Handling reconnection and application state management
+
+---
+
+### 06. Backend - Queue System
+
+In this section, you will build a real-time ticket/queue application, applying state management, services, and bidirectional communication with WebSockets to solve a complete practical case.
+
+#### Topics Covered
+
+- Architecture and flow of a real-time ticketing app
+- Centralized state management using a Store and data types
+- Business logic for ticket assignment and management
+- Use of WebSockets and message type definitions
+- Implementation of handlers and decoupled services
+- Testing and validation of the complete real-time flow
