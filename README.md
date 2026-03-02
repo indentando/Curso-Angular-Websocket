@@ -105,3 +105,18 @@ In this section, you will build a real-time ticket/queue application, applying s
 - Use of WebSockets and message type definitions
 - Implementation of handlers and decoupled services
 - Testing and validation of the complete real-time flow
+
+---
+
+### 07. Angular - Queue System
+
+In this section, we will learn how to build a real-time ticket queue system with Angular, integrating WebSockets, strict typing, and well-structured services to manage states and service flows.
+
+#### Topics Covered
+- Architecture of a real-time queue system with Angular
+- Bidirectional communication using typed WebSockets
+- Creation of services to handle connection, tickets, and states
+- Complete ticket flow: creation, assignment, and service
+- Real-time synchronization across multiple screens
+- Clear separation of responsibilities (UI vs business logic)
+- Various optimizations in the services
